@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Segment Combine</title>
+	<link rel="stylesheet" href="stylesheets/styles.css">
+	<link rel="stylesheet" href="stylesheets/onepage-scroll.css">
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	<script type="text/javascript" src="jquery.onepage-scroll.js"></script>
+	<script type="text/javascript" src="javascripts/navbar.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script:700|Megrim|Montserrat:300,400|Roboto+Slab:400,700" rel="stylesheet">
+	<meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
+
+	<script>
+        $(document).ready(function(){
+            $(".main").onepage_scroll({
+                sectionContainer: "section",
+                responsiveFallback: 600,
+                loop: true
+            });
+        });
+	</script>
+</head>
+
+<body>
+
+	<div class="navbar">
+		<ul>
+			<li onclick="$.fn.moveTo(5)"><span>CONTACTOS</span></li>
+			<li onclick="$.fn.moveTo(3)"><span>PORTEFÓLIO</span></li>
+			<li onclick="$.fn.moveTo(2)"><span>SOBRE NÓS</span></li>
+			<li onclick="$.fn.moveTo(1)"><span>INÍCIO</span></li>
+		</ul>
+	</div>
+	<div class = 'main'>
+		<div class="logo">
+		</div>
+		<section id="first-page" class = "page">
+
+		<div class="homepage-container">
+			<h1>ALUGUER E VENDA DE IMÓVEIS</h1>
+			<h5 onclick="$.fn.moveTo(2)">COMECE A DESCOBRIR</h5>
+			<img src="images/belem-tower-2809818_1920.jpg" alt="">
+		</div>
+	</section>
+	<section id="second-page" class = 'page'>
+		<div class="header-page">
+			<span>SOBRE NÓS</span>
+			<img src="images/shapes.png" alt="logo">
+		</div>
+		<h2>Segment Combine</h2>
+		<span class = 'txt'>A Segment Combine é uma sociedade, criada em 2016 com o intuito de reabilitar prédios e apartamentos e trazê-los até si nas melhores condições, para que possa disfrutar dos mesmos no seu conforto. Estamos presentes em várias cidades por todo o país e temos como objetivo deixar a nossa marca em todos os cantos de Portugal.
+		</span>
+		<div class="quote-container">
+			<img src="images/Quote_background_transparent.png" alt="">
+			<span>To give real service you must add something which cannot be bought or measured with money, and that is sincerity and integrity.</span>
+			<span><br>- Douglas Adams</span>
+		</div>
+	</section>
+	<section class="page" id="third-page">
+		<div class="portfolio-container">
+			<div class = 'portfolio-img'>
+				<div class="img"></div>
+			</div>
+			<div class="portfolio">
+				<h1>PORTEFÓLIO</h1>
+				<h3>Os produtos da Segment caracterizam-se pelo seu brio, detalhe e luxo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent facilisis finibus ligula eget convallis. Sed libero massa, consectetur eu eros eu, gravida consectetur velit.
+				</h3>
+			</div>
+		</div>
+	</section>
+	<section class="page" id="fourth-page">
+		<div class="arrows">
+			<a href="#third-page">
+				<img src="images/icons/img_119411.png" alt="">
+			</a>
+			<a href="">
+				<img style = 'transform: rotateY(0deg);'src="images/icons/img_119411.png" alt="">
+			</a>
+		</div>
+		<div class="houses">
+			<div class="house">
+				<div class="houseYear">
+					<span>2018</span>
+				</div>
+				<div class="houseImg">
+					<div class="houseImg-img" style="background:url('images/living-room-2732939_1280.jpg'); background-size: cover; background-position: center;"></div>
+				</div>
+				<div class="houseCaption">
+					<span>Lisboa - Marquês de Pombal</span>
+				</div>
+			</div>
+			<div class="house">
+				<div class="houseYear">
+					<span>2018</span>
+				</div>
+				<div class="houseImg">
+					<div class="houseImg-img" style="background:url('images/living-room-2732939_1280.jpg'); background-size: cover; background-position: center;"></div>
+					<div class="goTo">
+
+					</div>
+				</div>
+				<div class="houseCaption">
+					<span>Porto - Aliados</span>
+				</div>
+			</div>
+		</div>
+		<div class="progressionBar">
+			<div class="bar">
+				<div class="dot"></div>
+			</div>
+		</div>
+	</section>
+	<section class = 'page' id = 'fifth-page'>
+		<img src="images/map.png" alt="">
+		<div class="contacts">
+			<div class = 'side'>
+				<h1>CONTACTOS</h1>
+				<h3>CONTACTAR DIRETAMENTE</h3>
+			</div>
+			<div class = 'side'>
+				<h2 style="margin: 30px 0px 00px 50px">LOCALIZAÇÃO</h2>
+				<h4>Rua Braancamp nº12 4ºEsq</h4>
+				<h2>TELEFONE</h2>
+				<h4>915157460</h4>
+				<h2>HORÁRIO</h2>
+				<h4>Das 9H00 ás 18H00</h4>
+
+			</div>
+		</div>
+	</section>
+	</div>
+</body>
+</html>
